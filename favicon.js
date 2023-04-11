@@ -1,0 +1,10 @@
+const canvas = document.createElement("canvas");
+canvas.width = 96;
+canvas.height = 96;
+const ctx = canvas.getContext("2d");
+ctx.fillStyle = "#ff0000";
+// ctx.fillRect(0, 0, 96, 96);
+ctx.roundRect(0, 0, 96, 96, 30);
+ctx.fill();
+const favicon = document.querySelector("link[rel='icon']");
+favicon.href = canvas.toDataURL("image/png");
