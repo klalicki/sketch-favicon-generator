@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital@0;1&family=DM+Serif+Display&display=swap");
+
+* {
+  /* box-sizing: border-box; */
+  font-family: "DM Sans", sans-serif;
+}
+body {
+  display: flex;
+  width: 100vw;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+main {
+  max-width: 900px;
+}
+.options {
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.options article {
+  background-color: #eee;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.options button {
+  align-self: flex-end;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+}
+.options h2 {
+  margin: 0;
+}

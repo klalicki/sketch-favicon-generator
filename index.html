@@ -6,9 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/x-icon" href="" />
     <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
   </head>
   <body>
-    <h1>experimenting with custom favicons</h1>
+    <main>
+      <h1>experimenting with custom favicons</h1>
+      <section class="options">
+        <article>
+          <h2>red rounded rectangle</h2>
+          <button id="btn-1">go!</button>
+        </article>
+        <article>
+          <h2>custom gradient</h2>
+          <div>
+            <input type="color" id="color1" name="color1" value="#0000ff" />
+            <label for="color1">color 1</label>
+          </div>
+
+          <div>
+            <input type="color" id="color2" name="color2" value="#880088" />
+            <label for="color2">color 2</label>
+          </div>
+          <button id="btn-2">go!</button>
+        </article>
+      </section>
+    </main>
   </body>
   <script src="favicon.js"></script>
 </html>
